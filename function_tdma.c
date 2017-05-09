@@ -3,7 +3,7 @@
 //
 
 #include <stdio.h>
-void function_tdma(double x[], const int N, const float a[], const float b[], float c[])
+void function_tdma(double x[], const int N, const double a[], const double b[], double c[])
 {
   int i;
   
