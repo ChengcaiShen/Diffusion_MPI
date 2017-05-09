@@ -1,2 +1,2 @@
 # Diffusion_MPI
-This project is used to solve diffusion equation in MPICH envirenments.
+This program is used to solve diffusion equations (e.g., thermal conduction equation) in MPICH envirenments.
