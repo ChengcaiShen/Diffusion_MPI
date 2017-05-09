@@ -1,9 +1,5 @@
 //
 //  function_tdma.c
-//  
-//
-//  Created by Chengcai on 5/9/17.
-//
 //
 
 #include <stdio.h>
