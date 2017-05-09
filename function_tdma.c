@@ -3,7 +3,7 @@
 //
 
 #include <stdio.h>
-void function_tdma(float x[], const int N, const float a[], const float b[], float c[])
+void function_tdma(double x[], const int N, const float a[], const float b[], float c[])
 {
   int i;
   
@@ -11,7 +11,7 @@ void function_tdma(float x[], const int N, const float a[], const float b[], flo
   x[0] = x[0] / b[0];
   
   for (i = 1; i < N; i++) {
-    float m = 1.0f / (b[i] - a[i] * c[i - 1]);
+    double m = 1.0f / (b[i] - a[i] * c[i - 1]);
     c[i] = c[i] * m;
     x[i] = (x[i] - a[i] * x[i - 1]) * m;
   }
